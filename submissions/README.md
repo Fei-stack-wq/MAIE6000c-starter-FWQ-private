@@ -8,7 +8,7 @@
 - Student ID: 21395202
 - Repository: https://github.com/Fei-stack-wq/MAIE6000c-starter-FWQ-private.git
 - Checkpoint tag: `w03-readiness`
-- Commit SHA: cea09e36b5e7d67c72b3cc752c5a081bedd9a531
+- Commit SHA: 5520493a66aa8a5821f9198471c22bf6bf6b170d
 
 ## 1. What I changed
 
