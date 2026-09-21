@@ -1,9 +1,0 @@
-compose.yaml, Dockerfile, Makefile → startup and commands
-services/api/app/main.py → public API (FastAPI)
-services/ai/app/main.py → internal AI service (/triage)
-services/worker/app/main.py → job poller
-services/common/{models,schemas,db,config}.py → shared DB models, Pydantic schemas, settings
-alembic/versions/ → migrations
-tests/unit | integration | smoke → verification
-docs/architecture.md, operations.md, adrs/ → living documents
-.github/workflows/ci.yml → CI

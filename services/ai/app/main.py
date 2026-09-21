@@ -18,7 +18,19 @@ TRIAGE_REQUESTS = Counter("ai_triage_requests_total", "Total triage requests", [
 TRIAGE_LATENCY = Histogram("ai_triage_duration_seconds", "Triage duration in seconds")
 
 LABEL_KEYWORDS = {
-    "incident": {"error", "outage", "down", "failed", "failure", "broken", "crash", "bug"},
+    "incident": {
+        "error",
+        "outage",
+        "down",
+        "failed",
+        "failure",
+        "broken",
+        "crash",
+        "bug",
+        "timeout",
+        "timed out",
+        "unavailable",
+    },
     "access": {"login", "password", "access", "permission", "unlock", "sign in", "signin"},
     "billing": {"invoice", "charge", "refund", "billing", "payment", "subscription"},
     "maintenance": {"upgrade", "patch", "maintenance", "deploy", "deployment", "scheduled"},

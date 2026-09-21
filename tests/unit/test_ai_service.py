@@ -17,3 +17,20 @@ def test_triage_general_case():
         "Need clarification about the process for next week.",
     )
     assert result.label == "general"
+
+
+def test_triage_timeout_classified_as_incident():
+    result = triage_text(
+        "Checkout request timeout",
+        "The request timed out and could not be completed.",
+    )
+    assert result.label == "incident"
+    assert result.confidence >= 0.55
+
+
+def test_triage_unavailable_classified_as_incident():
+    result = triage_text(
+        "Service unavailable",
+        "The API is unavailable and requests are failing.",
+    )
+    assert result.label == "incident"
