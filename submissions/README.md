@@ -8,7 +8,7 @@
 - Student ID: 21395202
 - Repository: https://github.com/Fei-stack-wq/MAIE6000c-starter-FWQ-private.git
 - Checkpoint tag: `w03-readiness`
-- Commit SHA: 
+- Commit SHA: cea09e36b5e7d67c72b3cc752c5a081bedd9a531
 
 ## 1. What I changed
 
@@ -21,8 +21,6 @@ Add one keyword ("timeout" → incident) with a unit test
 
 ## 3. How I verified it
 
-List the strongest checks you performed.
-
 - run the test_ai_service.py
 - **Behaviour before**: 
 ![alt text](image-1.png)
@@ -32,12 +30,9 @@ List the strongest checks you performed.
 
 ## 4. Known limitations or notes
 
-Add any important limitation, assumption, or follow-up note here.
+The modification to the keywords merely added an alarm mechanism; it did not handle the timeout events.
 
 ## 5. AI Use Statement
 
-If generative AI tools materially assisted this work, summarize:
-
-- which tool(s) were used
-- what they were used for
-- what you verified, changed, or rejected
+- claude code
+- analyse the structure of the project; give some advice
